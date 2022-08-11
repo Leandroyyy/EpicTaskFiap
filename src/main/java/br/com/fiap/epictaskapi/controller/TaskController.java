@@ -1,7 +1,7 @@
 package br.com.fiap.epictaskapi.controller;
 
 
-import br.com.fiap.epictaskapi.entity.Task;
+import br.com.fiap.epictaskapi.dto.Task;
 import br.com.fiap.epictaskapi.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

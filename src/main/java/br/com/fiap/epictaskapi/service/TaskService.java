@@ -1,6 +1,6 @@
 package br.com.fiap.epictaskapi.service;
 
-import br.com.fiap.epictaskapi.entity.Task;
+import br.com.fiap.epictaskapi.dto.Task;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

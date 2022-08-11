@@ -1,7 +1,13 @@
 package br.com.fiap.epictaskapi.entity;
 
-public record Task (
-        String title,
-        String description,
-        Integer score,
-        Integer status) {}
+
+import javax.persistence.Entity;
+
+@Entity
+public class Task {
+
+    private String title;
+    private String description;
+    private Integer score;
+    private Integer status;
+}
